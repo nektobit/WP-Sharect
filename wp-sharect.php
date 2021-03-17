@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: WP Sharect
-* Plugin URI: https://nektobit.ru
+* Plugin URI: https://nektobit.github.io/WP-Sharect/
 * Description: A lightweight WordPress plugin to let users share their text selections to social networks.
 * Version: 1.0.0
 * Author: Dmitrii Nektobit
