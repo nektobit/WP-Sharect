@@ -1,1 +1,0 @@
-Sharect.init();
