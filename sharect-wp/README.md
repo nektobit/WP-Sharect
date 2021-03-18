@@ -1,3 +1,5 @@
+Sharect WP
+
 The plugin allows you to highlight text on your website and share it on social networks. The plugin is being developed. The plans include adding a page for setting social networks and custom buttons.
 
 But now you can use this snippets in functions.php:
@@ -29,6 +31,3 @@ Custom Icons:
     }
 
     add_filter( 'wpsharect_appendCustomShareButtons_filter', 'add_sharect_icons' );
-
-
-
