@@ -9,7 +9,7 @@
     <link rel="icon" type="image/png" href="favicon.png" />
 
     <!-- SEO -->
-    <title>WP Sharect - Share selection text wordpress plugin</title>
+    <title>Sharect WP - Share selection text wordpress plugin</title>
     <meta name="description" content="A lightweight script to let users share their text selections to social networks, in desktop browsers. (Yes, like Medium)" />
     <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="build/tailwind.css" />
@@ -116,7 +116,7 @@ function change_sharect_config() {
   ";
 }
 
-add_filter( 'wpsharect_config_filter', 'change_sharect_config' );
+add_filter( 'sharectwp_config_filter', 'change_sharect_config' );
 </pre
             >
           </div>
@@ -141,19 +141,19 @@ add_filter( 'wpsharect_config_filter', 'change_sharect_config' );
       <ul class="mt-4 space-y-2">
         <li>
           <a class="text-blue-700 underline hover:text-blue-800" href="#config">
-            wpsharect_config_filter
+            sharectwp_config_filter
           </a>
             </li>
             <li>
                 <a class="text-blue-700 underline hover:text-blue-800" href="#appendCustomShareButtons">
-            wpsharect_appendCustomShareButtons_filter
+            sharectwp_appendCustomShareButtons_filter
           </a>
             </li>
             </ul>
 
             <!-- .config -->
             <h4 class="mt-8 mb-2 text-2xl font-semibold" id="config">
-                wpsharect_config_filter
+                sharectwp_config_filter
             </h4>
             <p class="mb-4">
                 <strong>Optional</strong>. Configure the core library. Expects an comma separated string as argument with any of the following options.
@@ -236,17 +236,17 @@ function change_sharect_config() {
 	";
 }
 
-add_filter( 'wpsharect_config_filter', 'change_sharect_config' );
+add_filter( 'sharectwp_config_filter', 'change_sharect_config' );
         </code></pre>
                 </details>
 
                 <!-- .appendCustomShareButtons -->
                 <h4 class="mt-8 mb-2 text-2xl font-semibold" id="appendCustomShareButtons">
-                    wpsharect_appendCustomShareButtons_filter
+                    sharectwp_appendCustomShareButtons_filter
                 </h4>
                 <p class="pl-2 mb-4 border-l-4 border-blue-300">
                     DISCLAIMER: If you don't plan to share on any social media other than Facebook and Twitter (covered by the
-                    <code class="px-1 bg-gray-200 rounded-sm">wpsharect_config_filter</code> method above) you can safely ignore this method.
+                    <code class="px-1 bg-gray-200 rounded-sm">sharectwp_config_filter</code> method above) you can safely ignore this method.
                 </p>
                 <p class="mb-4">
                     <strong>Optional</strong>. Extends the core social buttons. Expects JS object(s) as argument containing an
@@ -289,7 +289,7 @@ function add_sharect_icons() {
 	';
 }
 
-add_filter( 'wpsharect_appendCustomShareButtons_filter', 'add_sharect_icons' );
+add_filter( 'sharectwp_appendCustomShareButtons_filter', 'add_sharect_icons' );
         </code></pre>
       </details>
     </section>
