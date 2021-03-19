@@ -34,8 +34,8 @@ function sharectwp_init() {
     ?>
         <script type="text/javascript">
             Sharect
-            .config({<?= sharectwp_config() ?>})
-            .appendCustomShareButtons([<?= sharectwp_appendCustomShareButtons() ?>])
+            .config({<?php echo sharectwp_config() ?>})
+            .appendCustomShareButtons([<?php echo sharectwp_appendCustomShareButtons() ?>])
             .init();
         </script>
     <?php

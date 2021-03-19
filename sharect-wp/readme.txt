@@ -1,6 +1,6 @@
 === Sharect WP ===
 Stable tag:        1.0.0
-Tested up to:      5.0
+Tested up to:      5.7
 Requires at least: 5.0
 Requires PHP:      7.4
 Contributors:      nektobit
