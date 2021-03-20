@@ -1,6 +1,0 @@
-March 19 2021 - 1.0.1
-- Tested up to: WordPress 5.7
-- Remove short tags from code
-
-March 17 2021 - 1.0.0
-- First stable version
