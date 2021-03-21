@@ -12,7 +12,8 @@ The plugin allows you to highlight text on your website and share it on social n
 
 == Description ==
 
-A lightweight (8Kb minified, 2.9Kb gzipped) script to let users share their text selections to social networks, in desktop browsers. (Yes, like Medium)
+A lightweight (8Kb minified, 2.9Kb gzipped) script to let users share their text selections to social networks, in desktop browsers. (Yes, like Medium).
+Based on Sharect.js
 
 * Supports adding custom icons (for now using php snippet)
 * You can also control the color of the tooltip widget (also using php code)
