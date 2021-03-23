@@ -3,7 +3,7 @@ Contributors:       nektobit
 Tags:               share, medium, social-network, text, selection, facebook-share, twitter-share
 Tested up to:       5.7
 Requires at least:  5.0
-Stable tag:         trunk
+Stable tag:         1.0.2
 Requires PHP:       7.0
 License:            MIT
 License URI:        https://opensource.org/licenses/MIT
